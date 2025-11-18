@@ -17,7 +17,7 @@ export default function MediaLibraryPage() {
 
   return (
     <div className="flex-1 overflow-auto container mx-auto">
-      <div className=" lg:p-8">
+      <div>
         <div className="flex items-center justify-between mb-8">
           <div>
             <h2 className="text-2xl lg:text-3xl font-bold text-foreground">

@@ -18,7 +18,7 @@ export default function BillingPage() {
 
   return (
         <div className="flex-1 overflow-auto container mx-auto">
-          <div className=" lg:p-8">
+          <div>
             <div className="mb-8">
               <h2 className="text-2xl lg:text-3xl font-bold text-foreground">Billing</h2>
               <p className="text-muted-foreground text-sm mt-1">Manage your subscription and billing information</p>
