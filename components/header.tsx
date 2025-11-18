@@ -3,6 +3,8 @@
 import { ChevronRight } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
+import { SidebarTrigger } from "./ui/sidebar";
+import { Separator } from "./ui/separator";
 
 export default function Header() {
   const pathname = usePathname();
@@ -49,6 +51,11 @@ export default function Header() {
         {/* Breadcrumb */}
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 mb-4">
+            <SidebarTrigger className="-ml-1" />
+            <Separator
+              orientation="vertical"
+              className="mx-2 data-[orientation=vertical]:h-4"
+            />
             <span className="text-muted-foreground text-sm">Workspace</span>
             <ChevronRight className="w-4 h-4 text-muted-foreground/50" />
             <span className="text-foreground text-sm font-medium">
