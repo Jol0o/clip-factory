@@ -17,7 +17,7 @@ export default function BillingPage() {
   const creditsTotal = 100
 
   return (
-        <div className="flex-1 overflow-auto">
+        <div className="flex-1 overflow-auto container mx-auto">
           <div className=" lg:p-8">
             <div className="mb-8">
               <h2 className="text-2xl lg:text-3xl font-bold text-foreground">Billing</h2>
